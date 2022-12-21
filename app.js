@@ -1,127 +1,128 @@
-var letra = ""
+
 
 letraDNI = (numerosDNI) => {
-    resto = numerosDNI % 23
-    
+    const resto = numerosDNI % 23
+    let letra
     console.log(resto)
-    if (resto = 0) {
+    if (resto == 0) {
         letra = "T"
         
     }
     
-    if (resto = 1) {
+    if (resto == 1) {
         letra = "R"
         
     }
     
-    if (resto = 2) {
+    if (resto == 2) {
         letra = "W"
         
     }
     
-    if (resto = 3) {
+    if (resto == 3) {
         letra = "A"
         
     }
     
-    if (resto = 4) {
+    if (resto == 4) {
         letra = "G"
         
     }
     
-    if (resto = 5) {
+    if (resto == 5) {
         letra = "M"
         
     }
     
-    if (resto = 6) {
+    if (resto == 6) {
         letra = "Y"
         
     }
     
-    if (resto = 7) {
+    if (resto == 7) {
         letra = "F"
         
     }
     
-    if (resto = 8) {
+    if (resto == 8) {
         letra = "P"
         
     }
     
-    if (resto = 9) {
+    if (resto == 9) {
         letra = "D"
         
     }
     
-    if (resto = 10) {
+    if (resto == 10) {
         letra = "X"
         
     }
     
-    if (resto = 11) {
+    if (resto == 11) {
         letra = "B"
-        return letra
+        
     }
     
-    if (resto = 12) {
+    if (resto == 12) {
         letra = "N"
         
     }
     
-    if (resto = 13) {
+    if (resto == 13) {
         letra = "J"
         
     }
     
-    if (resto = 14) {
+    if (resto == 14) {
         letra = "Z"
         
     }
     
-    if (resto = 15) {
+    if (resto == 15) {
         letra = "S"
         
     }
     
-    if (resto = 16) {
+    if (resto == 16) {
         letra = "Q"
         
     }
     
-    if (resto = 17) {
+    if (resto == 17) {
         letra = "V"
         
     }
     
-    if (resto = 18) {
+    if (resto == 18) {
         letra = "H"
         
     }
     
-    if (resto = 19) {
+    if (resto == 19) {
         letra = "L"
         
     }
     
-    if (resto = 20) {
+    if (resto == 20) {
         letra = "C"
         
     }
     
-    if (resto = 21) {
+    if (resto == 21) {
         letra = "K"
         
     }
     
-    if (resto = 22) {
+    if (resto == 22) {
         letra = "E"
         
     }
 
     console.log(letra)
+    console.log(resto);
 }
-console.log(letra);
-letraDNI(47734441)
+
+letraDNI(47739142)
 
 module.exports = { letraDNI }
